@@ -116,6 +116,7 @@
     <Compile Include="Assets/Scripts/EnemyAI.cs" />
     <Compile Include="Assets/Scripts/EnemyHealth.cs" />
     <Compile Include="Assets/Scripts/BloodFlashUI.cs" />
+    <Compile Include="Assets/Scripts/HiddenDoorShooting.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets/TextMesh Pro/Shaders/TMPro.cginc" />
