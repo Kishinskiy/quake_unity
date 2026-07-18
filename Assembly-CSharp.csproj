@@ -104,6 +104,9 @@
     <Compile Include="Assets/Scripts/Button.cs" />
     <Compile Include="Assets/Scripts/MovementObject.cs" />
     <Compile Include="Assets/Scripts/WeaponBobbing.cs" />
+    <Compile Include="Assets/Scripts/PlayerFluidState.cs" />
+    <Compile Include="Assets/Scripts/FluidZone.cs" />
+    <Compile Include="Assets/Scripts/PlayerHealth.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets/TextMesh Pro/Shaders/TMPro.cginc" />
