@@ -103,6 +103,7 @@
     <Compile Include="Assets/Scripts/PlayerMovement.cs" />
     <Compile Include="Assets/Scripts/Button.cs" />
     <Compile Include="Assets/Scripts/MovementObject.cs" />
+    <Compile Include="Assets/Scripts/WeaponBobbing.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets/TextMesh Pro/Shaders/TMPro.cginc" />
