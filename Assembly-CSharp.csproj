@@ -107,6 +107,9 @@
     <Compile Include="Assets/Scripts/PlayerFluidState.cs" />
     <Compile Include="Assets/Scripts/FluidZone.cs" />
     <Compile Include="Assets/Scripts/PlayerHealth.cs" />
+    <Compile Include="Assets/Scripts/FallDamage.cs" />
+    <Compile Include="Assets/Scripts/PlayerAudio.cs" />
+    <Compile Include="Assets/Scripts/PlayerDeathAudio.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets/TextMesh Pro/Shaders/TMPro.cginc" />

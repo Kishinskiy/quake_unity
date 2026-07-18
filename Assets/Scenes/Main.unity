@@ -1961,6 +1961,9 @@ GameObject:
   - component: {fileID: 542883309}
   - component: {fileID: 542883310}
   - component: {fileID: 542883311}
+  - component: {fileID: 542883312}
+  - component: {fileID: 542883313}
+  - component: {fileID: 542883314}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -2274,6 +2277,53 @@ MonoBehaviour:
   cameraRoot: {fileID: 208298851}
   weaponsContainer: {fileID: 1323686702}
   fallSpeed: 5
+--- !u!114 &542883312
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 542883300}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0cd734f90773b4e3a8d0400711aa87d9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fallDamageThreshold: -12
+  fallDamageMultiplier: 4
+--- !u!114 &542883313
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 542883300}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f883723f70c8341a6b0a30dcb25cdf09, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  jumpSound: {fileID: 8300000, guid: 11ed9ae2115a240e28dc8ebd96e5d520, type: 3}
+  landSafeSound: {fileID: 8300000, guid: 1e5effcaef2124e81b3307604639f43c, type: 3}
+  fallDamageSound: {fileID: 8300000, guid: 271992637f03a4c939c6f53701bac668, type: 3}
+  lavaDamageSound: {fileID: 8300000, guid: eb73b3454938b4b798d61d22a7eef865, type: 3}
+  lavaPainCooldown: 0.8
+--- !u!114 &542883314
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 542883300}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 52d393fbb4fbe4e169e94d7440effccc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  deathByFallSound: {fileID: 8300000, guid: c2757ace836354d8899f4d160eea1dab, type: 3}
+  deathByLavaSound: {fileID: 8300000, guid: 12db88befe8a441c6a03b9182c2c92d9, type: 3}
+  deathByTrapSound: {fileID: 8300000, guid: f138423395ef24236b87559e56c5c67d, type: 3}
+  deathByBulletSound: {fileID: 8300000, guid: f138423395ef24236b87559e56c5c67d, type: 3}
 --- !u!1 &574311513
 GameObject:
   m_ObjectHideFlags: 0
