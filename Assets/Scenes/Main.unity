@@ -237,7 +237,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &74418939
 Transform:
   m_ObjectHideFlags: 0
@@ -277,7 +277,7 @@ MonoBehaviour:
   hitLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  weaponIconSprite: {fileID: 21300000, guid: 3ccfb8938e45a4d66a892bb4945fc9eb, type: 3}
+  weaponIconSprite: {fileID: 21300000, guid: c67a3ffc8b3fa4b02a2115165c51c57b, type: 3}
   currentAmmo: 50
   shootAnimation: {fileID: 7400000, guid: 42d3d1acedd3c4f45893330e2b720c69, type: 2}
   hitEffectPrefab: {fileID: 3680542178266785190, guid: c4ae731d33ad749a2bb2e9bcfc7b642b,
@@ -3611,7 +3611,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100, y: 100}
+  m_SizeDelta: {x: 150, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &901730600
 MonoBehaviour:
@@ -9138,7 +9138,7 @@ MonoBehaviour:
   hitLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  weaponIconSprite: {fileID: 21300000, guid: 9b8647b13a34c4912a05ab77b56f9868, type: 3}
+  weaponIconSprite: {fileID: 21300000, guid: 300e7d421ac964097abcf0603e73f898, type: 3}
   currentAmmo: 80
   shootAnimation: {fileID: 7400000, guid: 42d3d1acedd3c4f45893330e2b720c69, type: 2}
   hitEffectPrefab: {fileID: 3680542178266785190, guid: c4ae731d33ad749a2bb2e9bcfc7b642b,
