@@ -77,7 +77,6 @@
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/EnvMapAnimator.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_UiFrameRateCounter.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/CameraController.cs" />
-    <Compile Include="Assets/Scripts/FirstPersonMovement.cs" />
     <Compile Include="Assets/Scripts/EnemyAI.cs" />
     <Compile Include="Assets/Scripts/MovementObject.cs" />
     <Compile Include="Assets/Scripts/PlayerFluidState.cs" />
@@ -119,6 +118,12 @@
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TeleType.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/VertexZoom.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/Benchmark01.cs" />
+    <Compile Include="Assets/Scripts/PauseManager.cs" />
+    <Compile Include="Assets/Scripts/old_FirstPersonMovement.cs" />
+    <Compile Include="Assets/Scripts/PlayerAmmo.cs" />
+    <Compile Include="Assets/Scripts/WeaponType.cs" />
+    <Compile Include="Assets/Scripts/AmmoPickup.cs" />
+    <Compile Include="Assets/ZombieAI.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets/TextMesh Pro/Shaders/TMPro.cginc" />
